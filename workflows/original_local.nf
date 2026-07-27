@@ -24,10 +24,6 @@ include { CLAIR3_CUSTOM } from './modules/local/clair3_custom/main'
 include { CLAIR3 } from './modules/nf-core/clair3/main'
 
 
-
-// wget link(s):
-// reffasta: https://ftp.ebi.ac.uk/ensemblgenomes/pub/protists/release-62/fasta/plasmodium_falciparum/dna/Plasmodium_falciparum.GCA000002765v3.dna.toplevel.fa.gz
-
 workflow {
   // Starting channels
   ch_samples = Channel

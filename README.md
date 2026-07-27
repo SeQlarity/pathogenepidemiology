@@ -76,6 +76,11 @@ To see the results of an example test run with a full size dataset refer to the 
 For more details about the output files and reports, please refer to the
 [output documentation](https://nf-co.re/pathogenepidemiology/output).
 
+## Helpful URLs to reference files
+
+https://ftp.ebi.ac.uk/ensemblgenomes/pub/protists/release-62/fasta/plasmodium_falciparum/dna/Plasmodium_falciparum.GCA000002765v3.dna.toplevel.fa.gz
+https://ftp.ebi.ac.uk/ensemblgenomes/pub/metazoa/release-62/fasta/anopheles_gambiae/dna/Anopheles_gambiae.AgamP4.dna.toplevel.fa.gz
+
 ## Credits
 
 nf-core/pathogenepidemiology was originally written by Igiraneza Clement, Bilal Asser, Firas Zemzem, more tbc.

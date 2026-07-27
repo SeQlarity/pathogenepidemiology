@@ -15,7 +15,8 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 */
 
-include { PATHOGENEPIDEMIOLOGY  } from './workflows/pathogenepidemiology'
+// include { DOWNLOAD_REFERENCES     } from './workflows/download_references' // not named yet in file
+include { PATHOGENEPIDEMIOLOGY    } from './workflows/pathogenepidemiology'
 include { PIPELINE_INITIALISATION } from './subworkflows/local/utils_nfcore_pathogenepidemiology_pipeline'
 include { PIPELINE_COMPLETION     } from './subworkflows/local/utils_nfcore_pathogenepidemiology_pipeline'
 include { getGenomeAttribute      } from './subworkflows/local/utils_nfcore_pathogenepidemiology_pipeline'
@@ -40,6 +41,10 @@ params.fasta = getGenomeAttribute('fasta')
 //
 // WORKFLOW: Run main analysis pipeline depending on type of input
 //
+
+
+
+
 workflow NFCORE_PATHOGENEPIDEMIOLOGY {
 
     take:
