@@ -99,7 +99,11 @@
             },
             "mentions": [
                 {
+<<<<<<< HEAD
                     "@id": "#20797bba-e85a-4dce-8fd8-c4b2dad0e359"
+=======
+                    "@id": "#331782dd-6d85-4bfe-82e0-3f889ac25f1f"
+>>>>>>> origin/main
                 }
             ],
             "name": "nf-core/pathogenepidemiology"
@@ -124,7 +128,11 @@
             "@type": ["File", "SoftwareSourceCode", "ComputationalWorkflow"],
             "contributor": [
                 {
+<<<<<<< HEAD
                     "@id": "#07e30b46-13ba-4147-bafc-89c5ba825811"
+=======
+                    "@id": "#075c2321-9b19-429f-b0d3-ff8f1b9b23a5"
+>>>>>>> origin/main
                 },
                 {
                     "@id": "https://orcid.org/0000-0001-8406-7154"
@@ -133,11 +141,19 @@
                     "@id": "https://orcid.org/0009-0004-7791-6364"
                 },
                 {
+<<<<<<< HEAD
                     "@id": "#5c71210c-3211-4da4-9bfc-a923bb0f72b9"
                 }
             ],
             "dateCreated": "",
             "dateModified": "2026-07-27T13:08:32Z",
+=======
+                    "@id": "#90b3d61e-9ea3-483c-b249-1b568c564d18"
+                }
+            ],
+            "dateCreated": "",
+            "dateModified": "2026-07-27T14:22:40Z",
+>>>>>>> origin/main
             "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalWorkflow/1.0-RELEASE/",
             "keywords": ["nf-core", "nextflow"],
             "license": ["MIT"],
@@ -164,11 +180,19 @@
             "version": "!>=25.10.4"
         },
         {
+<<<<<<< HEAD
             "@id": "#20797bba-e85a-4dce-8fd8-c4b2dad0e359",
             "@type": "TestSuite",
             "instance": [
                 {
                     "@id": "#8814f47b-9a7b-4374-86ac-41f08914cc23"
+=======
+            "@id": "#331782dd-6d85-4bfe-82e0-3f889ac25f1f",
+            "@type": "TestSuite",
+            "instance": [
+                {
+                    "@id": "#a86734b1-0309-47cc-a0b2-f52ad13b120a"
+>>>>>>> origin/main
                 }
             ],
             "mainEntity": {
@@ -177,7 +201,11 @@
             "name": "Test suite for nf-core/pathogenepidemiology"
         },
         {
+<<<<<<< HEAD
             "@id": "#8814f47b-9a7b-4374-86ac-41f08914cc23",
+=======
+            "@id": "#a86734b1-0309-47cc-a0b2-f52ad13b120a",
+>>>>>>> origin/main
             "@type": "TestInstance",
             "name": "GitHub Actions workflow for testing nf-core/pathogenepidemiology",
             "resource": "repos/nf-core/pathogenepidemiology/actions/workflows/nf-test.yml",
@@ -306,7 +334,11 @@
             "url": "https://nf-co.re/"
         },
         {
+<<<<<<< HEAD
             "@id": "#07e30b46-13ba-4147-bafc-89c5ba825811",
+=======
+            "@id": "#075c2321-9b19-429f-b0d3-ff8f1b9b23a5",
+>>>>>>> origin/main
             "@type": "Person",
             "name": "Igiraneza Clement"
         },
@@ -321,7 +353,11 @@
             "name": "Firas Zemzem"
         },
         {
+<<<<<<< HEAD
             "@id": "#5c71210c-3211-4da4-9bfc-a923bb0f72b9",
+=======
+            "@id": "#90b3d61e-9ea3-483c-b249-1b568c564d18",
+>>>>>>> origin/main
             "@type": "Person",
             "name": "more tbc"
         }
