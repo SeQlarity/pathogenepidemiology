@@ -1,3 +1,6 @@
+// This will be patched out of first release, after which reference download will be fully automatic
+// and done by ./prepare_references
+
 include {DOWNLOAD_REFFASTA} from '../modules/local/download_reffasta/main'
 
 params.queryurl = null
