@@ -1,11 +1,11 @@
 process DOWNLOAD_REFFASTA {
-    storeDir "refs"
+    storeDir "${params.outdir}/download"
     
     input:
     val ref_url
     
     output:
-    path "*.fa.gz"
+    path "${ref_url.toString().split('/').last()}"
     
     script:
     """

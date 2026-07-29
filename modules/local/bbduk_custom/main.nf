@@ -9,12 +9,11 @@ process BBDUK_CUSTOM {
 
     input:
     tuple val(meta), path(reads)
-    // path changed to val to accept comma sep'd list like adapters,phix,path.fa
     path contaminants
     path adapters
 
     output:
-    tuple val(meta), path('*.f*q*'), emit: reads
+    tuple val(meta), path('*_trimmed.f*q*'), emit: reads
     tuple val(meta), path('*.log')     , emit: log
     tuple val(meta), path('*.discarded.f*q*'), emit: discarded
     tuple val(meta), path('*.stats.txt'), emit: stats
@@ -27,7 +26,7 @@ process BBDUK_CUSTOM {
     def args = task.ext.args ?: ''
     def prefix = task.ext.prefix ?: "${meta.id}"
     def raw      = meta.single_end ? "in=${reads[0]}" : "in1=${reads[0]} in2=${reads[1]}"
-    def trimmed  = meta.single_end ? "out=${prefix}.fastq.gz" : "out1=${prefix}_1.fastq.gz out2=${prefix}_2.fastq.gz"
+    def trimmed  = meta.single_end ? "out=${prefix}_trimmed.fastq.gz" : "out1=${prefix}_1_trimmed.fastq.gz out2=${prefix}_2_trimmed.fastq.gz"
     def contaminants_fa = contaminants ? "ref=${adapters},phix,${contaminants}" : "ref=${adapters},phix"
     def discarded = meta.single_end ? "outm=${prefix}.discarded.fastq.gz" : "outm1=${prefix}_1.discarded.fastq.gz outm2=${prefix}_2.discarded.fastq.gz"
     def stats_file = "stats=${prefix}.stats.txt"

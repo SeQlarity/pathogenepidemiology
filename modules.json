@@ -10,6 +10,11 @@
                         "git_sha": "6d46786420b4d7bc88eba026eb389c0c5535d120",
                         "installed_by": ["modules"]
                     },
+                    "bwamem3/index": {
+                        "branch": "master",
+                        "git_sha": "cab334f632708de2679161f713dd969bfa491a25",
+                        "installed_by": ["modules"]
+                    },
                     "bwamem3/mem": {
                         "branch": "master",
                         "git_sha": "cab334f632708de2679161f713dd969bfa491a25",
@@ -63,6 +68,11 @@
                     "multiqc": {
                         "branch": "master",
                         "git_sha": "98403d15b0e50edae1f3fec5eae5e24982f1fade",
+                        "installed_by": ["modules"]
+                    },
+                    "samtools/faidx": {
+                        "branch": "master",
+                        "git_sha": "9339809fcb90af8a8b7051e6cd914894d5c52002",
                         "installed_by": ["modules"]
                     },
                     "samtools/stats": {
