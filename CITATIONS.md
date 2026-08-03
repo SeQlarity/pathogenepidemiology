@@ -23,6 +23,11 @@
 - [Anaconda](https://anaconda.com)
 
   > Anaconda Software Distribution. Computer software. Vers. 2-2.4.0. Anaconda, Nov. 2016. Web.
+## Application containers and workflows
+
+- [Use of application containers and workflows for genomic data analysis](https://pubmed.ncbi.nlm.nih.gov/28042430/)
+
+> Schulz WL, Durant TJS, Siddon AJ, Torres R. Use of application containers and workflows for genomic data analysis. J Pathol Inform. 2016 Dec 30;7:53. doi: 10.4103/2153-3539.194424. PubMed PMID: 28042430; PubMed Central PMCID: PMC5191838.
 
 - [Bioconda](https://pubmed.ncbi.nlm.nih.gov/29967506/)
 
