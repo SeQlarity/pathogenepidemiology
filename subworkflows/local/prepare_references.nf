@@ -1,8 +1,8 @@
 
-include { DOWNLOAD_REFFASTA as DOWNLOAD_QUERYFASTA } from '../modules/local/download_reffasta/main'
-include { DOWNLOAD_REFFASTA as DOWNLOAD_HOSTFASTA  } from '../modules/local/download_reffasta/main'
-include { GUNZIP_REFFASTA   as GUNZIP_QUERYFASTA   } from '../modules/local/gunzip_reffasta/main'
-include { SAMTOOLS_FAIDX                           } from '../modules/nf-core/samtools/faidx/main'
+include { DOWNLOAD_REFFASTA as DOWNLOAD_QUERYFASTA } from '../../modules/local/download_reffasta/main'
+include { DOWNLOAD_REFFASTA as DOWNLOAD_HOSTFASTA  } from '../../modules/local/download_reffasta/main'
+include { GUNZIP_REFFASTA   as GUNZIP_QUERYFASTA   } from '../../modules/local/gunzip_reffasta/main'
+include { SAMTOOLS_FAIDX                           } from '../../modules/nf-core/samtools/faidx/main'
 
 
 workflow PREPARE_REFERENCES {
