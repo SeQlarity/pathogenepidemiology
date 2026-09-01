@@ -1,16 +1,13 @@
-repository_type: pipeline
-
-nf_core_version: 4.0.3
-
 lint: {}
-
+nf_core_version: 4.1.0
+repository_type: pipeline
 template:
-  org: nf-core
-  name: pathogenepidemiology
+  author: Igiraneza Clement, Bilal Asser, Firas Zemzem, more tbc
   description: A profile-based pipeline for genomic epidemiological analysis of predefined
     pathogens.
-  author: Igiraneza Clement, Bilal Asser, Firas Zemzem, more tbc
-  version: 0.1.0dev
-  force: true
-  outdir: .
+  force: false
   is_nfcore: true
+  name: pathogenepidemiology
+  org: nf-core
+  outdir: .
+  version: 0.1.0dev
